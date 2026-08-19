@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>แนะนำตัว & โปรเจกต์วิชานี้</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Sukhumvit Set', 'Kanit', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #fcf8f2;
+            color: #4a3e3d;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .card {
+            background: #ffffff;
+            width: 100%;
+            max-width: 480px;
+            padding: 32px;
+            border-radius: 24px;
+            box-shadow: 0 10px 25px rgba(163, 137, 120, 0.12);
+            border: 2px solid #f0e6df;
+            text-align: center;
+        }
+
+        .avatar {
+            font-size: 64px;
+            margin-bottom: 12px;
+            display: inline-block;
+            animation: bounce 2s infinite ease-in-out;
+        }
+
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-8px); }
+        }
+
+        h1 {
+            font-size: 1.6rem;
+            color: #2d2424;
+            margin-bottom: 24px;
+            font-weight: 700;
+        }
+
+        .info-group {
+            background-color: #faf5f0;
+            border-radius: 16px;
+            padding: 20px;
+            text-align: left;
+            margin-bottom: 24px;
+        }
+
+        .info-item {
+            margin-bottom: 14px;
+        }
+
+        .info-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .label {
+            font-size: 0.85rem;
+            color: #8c7a6b;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 2px;
+            font-weight: 600;
+        }
+
+        .value {
+            font-size: 1.1rem;
+            color: #332927;
+            font-weight: 600;
+        }
+
+        .app-target {
+            background: linear-gradient(135deg, #ffedea 0%, #ffe3de 100%);
+            border: 1.5px solid #ffd0c7;
+            border-radius: 16px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .app-target .label {
+            color: #d66853;
+        }
+
+        .app-target .value {
+            font-size: 1.25rem;
+            color: #8a2b18;
+            margin-top: 4px;
+        }
+
+        footer {
+            margin-top: 24px;
+            font-size: 0.85rem;
+            color: #b5a495;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <div class="avatar">🐾</div>
+        <h1>ข้อมูลนักศึกษา</h1>
+
+        <div class="info-group">
+            <div class="info-item">
+                <div class="label">ชื่อ - นามสกุล</div>
+                <div class="value">[พรไพลิน แม้นเจริญ]</div>
+            </div>
+            
+            <div class="info-item">
+                <div class="label">รหัสนักศึกษา</div>
+                <div class="value">[6823765430]</div>
+            </div>
+        </div>
+
+        <div class="app-target">
+            <div class="label">🎯 แอปที่อยากสร้างในวิชานี้</div>
+            <div class="value">🐱 เกมเลี้ยงแมว</div>
+        </div>
+
+        <footer>
+            Course Project Pitch
+        </footer>
+    </div>
+
+</body>
+</html>
